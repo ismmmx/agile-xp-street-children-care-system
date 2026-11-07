@@ -12,7 +12,7 @@
 
 Street children's records in Bangladesh are often scattered across paper files kept by separate orphanages, foundations and health workers. The **Street Children Care System (SCCS)** is a role-based desktop application that centralizes child registration, orphanage/foundation coordination and vaccination tracking in one SQL Server database, built by a five-person team under the Agile/XP process.
 
-**Quick links:** [Project Report (PDF)](docs/project-report/Street-Children-Care-System-Project-Report.pdf) · [Figma UI/UX Design](https://www.figma.com/design/SAj49Efd8CGjBv6D91nNh9/Street_Children_Care_System?node-id=9-36) · [Trello Board](https://trello.com/b/yeTZYjen/street-children-care-system) · [Documentation Index](docs/README.md)
+**Quick links:** [Project Report (PDF)](docs/project-report/SE_Street_Children_Care_System_Project_Report.pdf) · [Figma UI/UX Design](https://www.figma.com/design/SAj49Efd8CGjBv6D91nNh9/Street_Children_Care_System?node-id=9-36) · [Trello Board](https://trello.com/b/yeTZYjen/street-children-care-system) · [Documentation Index](docs/README.md)
 
 ---
 
@@ -85,7 +85,7 @@ There is no single system that connects children, orphanages, foundations and he
 
 ## 🚀 Key Features
 
-The requirements are organized into 11 scopes (full detail in the [project report](docs/project-report/Street-Children-Care-System-Project-Report.pdf) and [requirements summary](docs/requirements/README.md)):
+The requirements are organized into 11 scopes (full detail in the [project report](docs/project-report/SE_Street_Children_Care_System_Project_Report.pdf) and [requirements summary](docs/requirements/README.md)):
 
 1. **User authentication and access management** — five predefined roles; username/password login; registration verified by mobile OTP and confirmation email.
 2. **Account enrollment and provisioning** — administrators create, edit and remove user accounts.
@@ -159,16 +159,16 @@ The interface was designed in **Figma** as a dark-themed desktop UI with a persi
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/ui-ux/01-login.png" alt="Login screen"><br><sub><b>Login</b> — role-based sign-in with password recovery link</sub></td>
-    <td width="50%"><img src="assets/ui-ux/02-admin-user-management.png" alt="Administrator user management"><br><sub><b>Administrator: User Management</b> — searchable list of system users and roles</sub></td>
+    <td width="50%"><img src="assets/ui-ux/01-login (Ishmam).png" alt="Login screen"><br><sub><b>Login</b> — role-based sign-in with password recovery link</sub></td>
+    <td width="50%"><img src="assets/ui-ux/02-admin-user-management (Ishmam).png" alt="Administrator user management"><br><sub><b>Administrator: User Management</b> — searchable list of system users and roles</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="assets/ui-ux/04-admin-child-placement-tracking.png" alt="Child placement and tracking"><br><sub><b>Administrator: Child Placement &amp; Tracking</b> — assign children to organizations</sub></td>
-    <td width="50%"><img src="assets/ui-ux/09-staff-new-child-registration.png" alt="New child registration"><br><sub><b>Staff: New Child Registration</b> — required-field child registration form</sub></td>
+    <td width="50%"><img src="assets/ui-ux/04-admin-child-placement-tracking (Ishmam).png" alt="Child placement and tracking"><br><sub><b>Administrator: Child Placement &amp; Tracking</b> — assign children to organizations</sub></td>
+    <td width="50%"><img src="assets/ui-ux/09-staff-new-child-registration (Tanmay).png" alt="New child registration"><br><sub><b>Staff: New Child Registration</b> — required-field child registration form</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="assets/ui-ux/07-foundation-finance-management.png" alt="Foundation finance management"><br><sub><b>Foundation Coordinator: Finance Management</b> — donations and transaction history</sub></td>
-    <td width="50%"><img src="assets/ui-ux/15-vaccination-record.png" alt="Vaccination record"><br><sub><b>Vaccination Staff: Vaccination Record</b> — search and review child vaccination records</sub></td>
+    <td width="50%"><img src="assets/ui-ux/07-foundation-finance-management (Bristi).png" alt="Foundation finance management"><br><sub><b>Foundation Coordinator: Finance Management</b> — donations and transaction history</sub></td>
+    <td width="50%"><img src="assets/ui-ux/15-vaccination-record (Bipro).png" alt="Vaccination record"><br><sub><b>Vaccination Staff: Vaccination Record</b> — search and review child vaccination records</sub></td>
   </tr>
 </table>
 
@@ -198,7 +198,7 @@ Tasks were managed on Trello using user-story lists (*As A/An*, *I want to*, *So
 This repository is documentation and workflow evidence, not a runnable application (see [Repository scope](#-overview)), so there is no `git clone` + build step yet. To get the most out of it:
 
 1. Start with this README for the project overview, then open the [Documentation Index](docs/README.md) for the full set of supporting documents.
-2. Read the [Project Report (PDF)](docs/project-report/Street-Children-Care-System-Project-Report.pdf) for the complete SRS, design and testing write-up.
+2. Read the [Project Report (PDF)](docs/project-report/SE_Street_Children_Care_System_Project_Report.pdf) for the complete SRS, design and testing write-up.
 3. Browse the [UI/UX Design](#-uiux-design) section or the [Figma project](https://www.figma.com/design/SAj49Efd8CGjBv6D91nNh9/Street_Children_Care_System?node-id=9-36) to see the interface.
 4. Check [`docs/requirements/implemented-features.md`](docs/requirements/implemented-features.md) to see which user stories (T-1 to T-53) were completed.
 
