@@ -1,5 +1,7 @@
-# Implemented Features
+# Task Log
 
+This log records each user-story task tracked on the project's Trello board (T-1 to T-53).
+     
 ## T-1: Create a new Administrator profile
 This task involves creating a new administrator profile where an OTP is sent to the user's mobile and a confirmation mail to the registered email.
 **Status: Implemented**
@@ -18,9 +20,11 @@ This task involves authenticating staff members using their registered username 
 
 ## T-5: Create a new Orphanage Coordinator profile
 This task involves creating a new orphanage coordinator profile where an OTP is sent to orphanage coordinator’s mobile and a confirmation mail to the registered email.
+**Status: Implemented**
 
 ## T-6: Create a new Foundation Coordinator profile
 This task involves creating a new foundation coordinator profile where an OTP is sent to foundation coordinator's mobile and a confirmation mail to the registered email.
+**Status: Implemented**
 
 ## T-7: Implement Vaccination Record Adding Page
 This task involves adding a vaccination record for a street child and collecting thek required vaccination information.
@@ -110,10 +114,6 @@ This task involves recording and managing donations so that users can keep track
 ## T-28: Update funding information 
 This task involves updating funding information to ensure financial records remain accurate. All changes made to the funding data are saved successfully in the system. 
 **Status: Implemented** 
-
-## T-27: Record & manage donation 
-This task involves recording and managing donations so that users can keep track of all donations accurately. Donation details are saved successfully and can be viewed and updated within the system. 
-**Status: Implemented**
 
 ## T-29: Request a new password
 This task involves sending an OTP to user's mobile and confirmation mail to the registered email for password reset request.
