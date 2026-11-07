@@ -1,0 +1,44 @@
+# --- Visual Studio / .NET (C# Windows Forms) ---
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.pdb
+*.cache
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+packages/
+*.nupkg
+TestResults/
+*.log
+
+# --- SQL Server / local database files ---
+*.mdf
+*.ldf
+*.bak
+*.bacpac
+
+# --- Secrets and local configuration (never commit real values) ---
+.env
+*.env
+appsettings.*.json
+!appsettings.example.json
+App.config.local
+secrets.json
+
+# --- OS / editor files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# --- Temporary files ---
+*.tmp
+*.temp
+~$*
